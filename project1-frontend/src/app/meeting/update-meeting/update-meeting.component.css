@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.container-fluid {
+  background-image: url('../../../assets/business.jpg');
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  width: 80%;
+  height: 80%;
+  margin-top: 4%;
+  /* background-position: left top, right top; */
+  border-radius: 16px;
+  box-shadow: 0 1rem 2rem 0 #7C7C84;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: #f1f4f7;
+}
+
+.makeMe300 {
+  height: 200px;
+}
+
+.row_ends {
+  margin: 1rem;
+}
+
+.leaveSomeSpace {
+  padding-right: 0.5rem;
+}
+
+@media (min-width: 150px) and (max-width: 767px) {
+  .container-fluid {
+    background-image: url('../../../assets/meeting1.jpg');
+    font-family: 'Montserrat', sans-serif;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* font-family: bold; */
+    background-size: 100% 100%;
+    height: 100%;
+  }
+}

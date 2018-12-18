@@ -1,0 +1,71 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand">MeetApp</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link">{{ createdBy }}</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" (click)="logout(createdById)"><i class="fa fa-power-off" aria-hidden="true"></i></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6">
+    </div>
+
+    <div class="col-md-6" style="text-align:center">
+      <div class="">
+        <div class="row_ends">
+          <h2 class="form-signin-heading" style="text-align:center">Update Meeting for Task {{ oldTask }}</h2>
+          <br>
+
+          <span>Title: </span>
+          <label for="inputTitle" class="sr-only">userName</label>
+          <input type="text" id="inputTitle" class="form-control" [(ngModel)]="title" placeholder="Update Meeting Title"
+            required autofocus>
+
+          <br>
+
+          <div class="">
+            <div class="makeMe300" style="padding: 0px !important">
+              <span class="form-heading leaveSomeSpace">Start Time:</span>
+              <label for="startTime" class="sr-only">Start Time:</label>
+              <input [owlDateTime]="dt1" name="startDate1" [(ngModel)]="startDate" placeholder="Start Date Time">
+              <span [owlDateTimeTrigger]="dt1">
+                <i class="fa fa-calendar"></i>
+              </span>
+              <owl-date-time #dt1></owl-date-time>
+            </div>
+
+            <div class="makeMe300" style="padding: 0px !important">
+              <span class="form-heading leaveSomeSpace">End Time:</span>
+              <label for="endTime" class="sr-only">End Time:</label>
+              <input [owlDateTime]="dt2" name="endDate1" [(ngModel)]="endDate" placeholder="End Date Time">
+              <span [owlDateTimeTrigger]="dt2">
+                <i class="fa fa-calendar"></i>
+              </span>
+              <owl-date-time #dt2></owl-date-time>
+            </div>
+            <div *ngIf="validateDate(startDate, endDate)" class="alert alert-danger">
+              * End Date/Time cannot be before Start Date/Time.
+            </div>
+            <div *ngIf="validateTodayDate(startDate) || validateTodayDate(endDate)" class="alert alert-danger">
+              * How one can Schedule a meeting in back date?y
+            </div>
+
+          </div> <!-- row ends -->
+
+        </div>
+      </div>
+      <button class="btn btn-success" (click)="updateMeeting()">Update Meeting</button>
+      <button class="btn btn-danger" (click)="deleteMeeting(meetingId)">Delete Meeting</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.main-layout {
+  padding-top: 50px;
+}
+
+.leaveSomeSpace {
+  padding-right: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+* {
+  border-radius: 0px !important;
+}
+
+.bottom-btn {
+  margin-top: 10px;
+}
+
+.onlinePeopleList {
+  background: #e1e1e1;
+  border-bottom: 2px solid #7C7C84;
+  padding: 1rem;
+}
+
+.head {
+  text-align: center;
+  background: #e1e1e1;
+  font-family: bold;
+  font-size: 20px;
+}
+
+.li-outline {
+  margin-left: 1rem;
+}

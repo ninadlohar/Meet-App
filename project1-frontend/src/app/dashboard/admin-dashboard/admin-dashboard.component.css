@@ -1,0 +1,42 @@
+.make-me-flex {
+  display: flex;
+  padding: 0.5rem;
+}
+
+.make-me-flex i {
+  padding-left: 0.5rem;
+}
+
+.tp {
+  margin-top: 1rem;
+}
+
+.giveMeSide {
+  padding-right: 12px;
+}
+
+.container-fluid {
+  margin-top: 1rem;
+}
+
+.onlineUsers {
+  border: 2px solid #e1e1e1;
+  padding: 0.5rem;
+}
+
+.brdr-btm {
+  padding-top: 1rem;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.li-outline {
+  cursor: pointer;
+}
+
+.li-outline :hover {
+  background: #e1e1e1;
+}
+
+.calendarX {
+  padding: 0px !important;
+}

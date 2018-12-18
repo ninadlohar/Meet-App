@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.container-fluid {
+  /* background-image: url('C:/Users/groot/Desktop/business.jpg'); */
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  width: 80%;
+  height: 80%;
+  margin-top: 4%;
+  /* background-position: left top, right top; */
+  border-radius: 16px;
+  box-shadow: 0 1rem 2rem 0 #7C7C84;
+  font-family: 'Montserrat', sans-serif;
+  /* text-transform: uppercase; */
+}
+
+body {
+
+  background: #f1f4f7;
+}
+
+.right-side {}

@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.modal-body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.giveMeSide {
+  padding-right: 12px;
+}
+
+.container-fluid {
+  margin-top: 1rem;
+}
