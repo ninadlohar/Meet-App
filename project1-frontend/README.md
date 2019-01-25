@@ -12,8 +12,9 @@
 
 ### To run the App - 
 
-[Firstly Download Meeting Scheduler](https://github.com/ninadlohar/Meet-App.git)
 ````html
+[Firstly Download Meeting Scheduler](https://github.com/ninadlohar/Meet-App.git)
+
 cd project1-backend -> npm i -> ng serve
 
 cd project1-frontend -> npm i -> nodemon start
