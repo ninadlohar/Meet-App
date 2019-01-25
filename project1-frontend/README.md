@@ -12,6 +12,8 @@
 
 ### To run the App-
 [download link](https://github.com/ninadlohar/Meet-App.git)
+
 cd project1-backend -> npm i -> ng serve
+
 cd project1-frontend -> npm i -> nodemon start
 
