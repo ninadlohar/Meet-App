@@ -40,3 +40,7 @@ Meet App a meeting management application, that creates/updates and notify users
 Features about meeting. Live Updates on notification and real time, alarm notifcation with snooze functionality.
 Keeps track of all users.
 ```
+
+###### Screenshots of Project
+
+**Login Page**![Screenshot](https://github.com/ninadlohar/Meet-App/blob/master/project1-frontend/src/assets/login.png)
