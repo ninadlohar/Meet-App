@@ -41,6 +41,12 @@ Features about meeting. Live Updates on notification and real time, alarm notifc
 Keeps track of all users.
 ```
 
-###### Screenshots of Project
+# Screenshots of Project
 
 **Login Page**![Screenshot](https://github.com/ninadlohar/Meet-App/blob/master/project1-frontend/src/assets/login.png)
+
+**Dashboard Page** ![Screenshot](https://github.com/ninadlohar/Meet-App/blob/master/project1-frontend/src/assets/dashboard.png)
+
+**Create Meeting Page** ![Screenshot](https://github.com/ninadlohar/Meet-App/blob/master/project1-frontend/src/assets/createMeeting.png)
+
+**Edit Meeting Page** ![Screenshot](https://github.com/ninadlohar/Meet-App/blob/master/project1-frontend/src/assets/updatemeeting.png)
