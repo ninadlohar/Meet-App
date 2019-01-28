@@ -37,6 +37,7 @@
 ### Short Description of Project
 ```html
 Meet App a meeting management application, that creates/updates and notify users about meeting.
+Admin and Normal User Management
 Features about meeting. Live Updates on notification and real time, alarm notifcation with snooze functionality.
 Keeps track of all users.
 ```
@@ -50,3 +51,5 @@ Keeps track of all users.
 **Create Meeting Page** ![Screenshot](https://github.com/ninadlohar/Meet-App/blob/master/project1-frontend/src/assets/createMeeting.png)
 
 **Edit Meeting Page** ![Screenshot](https://github.com/ninadlohar/Meet-App/blob/master/project1-frontend/src/assets/updatemeeting.png)
+
+**My LinkedIn Profile->** [click here](https://www.linkedin.com/in/ninad-lohar-448705ab/)
